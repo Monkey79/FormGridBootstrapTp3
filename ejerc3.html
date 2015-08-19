@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--SemanticUI required Jquery-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!--SemanticUI-->
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="semantic/dist/semantic.min.js"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--Custom-->
+    <script type="text/javascript" src="code/ValidMessage.js"></script>
+    <script type="text/javascript" src="code/Validator.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ejerc3.css">
+    <script type="text/javascript" src="code/ejerc3.js"></script>
+</head>
+
+<body>
+    <header class="myHeader">
+        <h1>Login</h1>
+    </header>
+    <div class="container">
+        <form class="ui form form-signin" id="myForm">
+            <h2 class="form-signin-heading">Please sign in</h2>
+            <div class="field six wide column customFormRow">
+                <label for="first-name">First Name</label>
+                <input class="form-control" id="first-name" name="first-name" placeholder="Nombre" type="text" class="myCell">
+            </div>
+            <div class="field six wide column customFormRow">
+                <label for="last-name">Last Name</label>
+                <input class="form-control" id="last-name" name="last-name" placeholder="Apellido" type="text">
+            </div>
+            <div class="field customFormRow">
+                <label for="address">Address</label>
+                <div class="twelve wide field">
+                    <input class="form-control" id="address" name="address" type="text" placeholder="Domicilio">
+                </div>
+            </div>
+            <div class="field customFormRow">
+                <label for="personalId">Id</label>
+                <div class="three wide field">
+                    <input class="form-control" id="personalId" name="personalId" type="text" placeholder="Dni">
+                </div>
+            </div>
+            <div class="field customFormRow">
+                <label for="phone">Phone</label>
+                <div class="three wide field">
+                    <input class="form-control" id="phone" name="phone" type="text" placeholder="Telefono">
+                </div>
+            </div>
+            <button id="submitBtn" class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

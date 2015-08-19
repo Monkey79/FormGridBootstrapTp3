@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE;
+    font-size: 30px;
+}
+
+.myHeader{
+	text-align: center;
+}
+
+.customFormRow {
+    font-size: 20px;
+}
+
+
